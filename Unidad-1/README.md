@@ -38,4 +38,30 @@ Escribir __A, “Es el mayor”__
 
 - Fin
 
+-[Ejercicio 2](#ejercicio2)
+
+## Ejercicio 2<a name="ejercicio2"></a>
+
+### Pseudocodigo
+
+Pasos:
+- Inicio
+-  Inicializar las variables A, B y C
+- Leer los tres valores
+- Almacenar en las variables A, B y C
+- Si A > B y A > C Entonces
+- Escribir A “Es el mayor”
+- Sino
+- Si B > A y B > C Entonces
+- Escribir B “Es el mayor”
+- Sino
+- Escribir C “Es el mayor”
+- Fin_Si
+- Fin_Si
+- Fin
+
+### Diagrama de flujo
+
+<img src="images/diagrama-flujo2.drawio.png">
+
 </div>
