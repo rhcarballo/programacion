@@ -11,4 +11,6 @@ mayor y escribirlo.
 
 ### Diagrama de flujo
 
+<img src="images/diagrama-flujo.drawio.png">
+
 </div>
