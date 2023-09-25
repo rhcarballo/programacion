@@ -1,5 +1,6 @@
 /**
- * @author Nombre del autor
+ * @author rhcarballo
+ * Ejercicio numero 2
  */
 public class Ejercicio1 {
 
@@ -8,6 +9,6 @@ public class Ejercicio1 {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        
     }
 }
