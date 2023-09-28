@@ -22,6 +22,7 @@ Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las vari
 
 ## Diagrama de flujos
 
+<img src="images/diagrama-flujo-ejercicio2.png">
 
 ## Pseudocódigo
 
@@ -49,5 +50,10 @@ Inicio
 
 ## Referencias
 
+
+
+# Ejercicio 3
+
+Desarrolle un algoritmo que realice la sumatoria de los números enteros comprendidos entre el 1 y el 10, es decir, 1 + 2 + 3 + …. + 10. Utilia un buble __for__ y un bucle __while__.
 
 </div>
