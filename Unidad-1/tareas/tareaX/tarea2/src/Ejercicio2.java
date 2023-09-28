@@ -36,7 +36,7 @@ public class Ejercicio1 {
         //Bloque dos, determinar que valor es mayor
 
         if (valorA == valorB == valorC){
-        System.out.printf("Los valores introducidos son iguales, ingrese valores diferentes.")
+        System.out.printf("Los valores introducidos son iguales, ingrese valores diferentes.");
          } else if (valorA > valorB && valorA > valorC){
             System.out.printf("El mayor es A"+valorA);
          } else if (valorB > valorA && valorB > valorC){
