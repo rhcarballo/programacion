@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Ingrese el valor de la variable B: ");
             valorB = lectura.nextInt();
             System.out.println("valor de la variable B:"+valorB);
-
+            //Bloque 2: verifica si los valores son iguales
         } while (valorA == valorB);
 
         //Bloque 3: verifica si A > B
