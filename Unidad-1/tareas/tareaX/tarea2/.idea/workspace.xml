@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="854aba73-f598-41e5-8461-2c7dd1a00c20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Tarea2-bucles/Numerosperfectos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea2-bucles/Numerosperfectos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diagrama-flujo-ejercicio2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diagramaejercicio8.drawio(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/file.clean" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3for.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3while.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumerosPerfectos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NumerosPerfectos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tarea2-1.0.0.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2VtRDASEPNlPbKZFhWeJIrhc4UG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dam/rhcarballo/programacion/Unidad-1/tareas/tareaX/Tarea2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="NumerosPerfectos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumerosPerfectos" />
+      <module name="tarea2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumerosPerfectos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854aba73-f598-41e5-8461-2c7dd1a00c20" name="Changes" comment="" />
+      <created>1695653267767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695653267767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

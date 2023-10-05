@@ -1,59 +1,19 @@
-<div align="justify">
+# Tarea2: Números perfectos.
 
-# Ejercicio 2
+## Seudocódigo
+    1. Inicio
+    2. Imprimir descripción del programa.
+    3. Bucle for, declaración del rango 1 a 1000 y variables
+    4.      mientras n < 1000, hasta 1000, sumar 1 
+    5.      n = 1
+    6.      sumadedivisores = 0
+    7. Bucle for para divisor y comprobar si es divisor
+    8.      mientras divisor < n, sumar 1
+    9.      Si n % divisor == 0
+    10.     sumadivisores = sumadivisores + divisor
+    11. Comprobar si sumadivisores == n
+    12. Imprimir
 
-<!-- Recuerda que
+## Diagrama de flujo
 
-## 1. Subtítulo tarea
-
-### 1.1 Subtítulo de la tarea
-
--- Incluir imagenes
-
-<div align="center">
-    <img src="images/diagrama-flujo.png"/> 
-</div>
-
--->
-
-## Descripción del ejercicio
-
-Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente. El algoritmo debe imprimir cual es el mayor y cual es el menor. Recuerde constatar que los tres valores introducidos por el teclado sean valores distintos. Presente un mensaje de alerta en caso de que se detecte la introducción de valores iguales.
-
-## Diagrama de flujos
-
-<img src="images/diagrama-flujo-ejercicio2.png">
-
-## Pseudocódigo
-
-Inicio
-1. Pedir variables A, B y C al usuario
-2. Entrada de variables A, B y C
-3. Leer los tres valores
-4. Almacenar en las variables A, B y C
-5. Si A = B = C
-6. Entonces
-7. Pedir variables A, B, C al usuario
-8. Sino
-9. Si A > B y A > C 
-10. Entonces
-11. Escribir A “Es el mayor”
-12. Sino
-13. Si B > A y B > C Entonces
-14. Escribir B “Es el mayor”
-15. Sino
-16. Escribir C “Es el mayor”
-17. Fin_Si
-18. Fin_Si
-
- Fin
-
-## Referencias
-
-
-
-# Ejercicio 3
-
-Desarrolle un algoritmo que realice la sumatoria de los números enteros comprendidos entre el 1 y el 10, es decir, 1 + 2 + 3 + …. + 10. Utilia un buble __for__ y un bucle __while__.
-
-</div>
+<img src = "images/Diagramanumerosperfectos.drawio.png">
