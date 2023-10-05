@@ -1,7 +1,3 @@
-/**
- * @author rhcarballo
- * Ejercicio numero 2
- */
 public class Numerosperfectos {
 
     /**
@@ -25,8 +21,8 @@ public class Numerosperfectos {
 
             //Comprobación para ver si es número perfecto y exponerlo. 
 
-            if (sumadedivisores == n)
-            System.out.printf(n + "")
+            if (sumadedivisores == n);
+            System.out.printf(n + "");
         }
         
     }
