@@ -1,4 +1,6 @@
-
+    /**
+     * Author: Roberto Hernández Carballo, rhcarballo
+     */
 import java.util.Scanner;
 
 public class Ejercicio4 {
@@ -16,10 +18,11 @@ public class Ejercicio4 {
         int n = lectura.nextInt();
 
         if (espalindromo(n)) {
-            System.out.println("El número es palíndromo.");
-        } else{
             System.out.println("El número no es palíndromo.");
+        } else{
+            System.out.println("El número es palíndromo.");
         } 
+
     }
 
     public static boolean espalindromo(int n) {

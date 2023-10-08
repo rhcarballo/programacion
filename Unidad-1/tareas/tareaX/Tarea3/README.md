@@ -1,34 +1,14 @@
+<div align = "justify">
+
 # Tarea 3
 
--[ Ejercicio1](#ejercici-1)
-
-
-
-## Ejercicio 1 <a name = "ejercicio-1"></a>
-
-### Seudocódigo
-
-### Diagrama de flujo
-
-
-
-## Ejercicio 2 <a name = "ejercicio-2"></a>
-
-### Seudocódigo
-
-### Diagrama de flujo
-
-
-
-## Ejercicio 3 <a name = "ejercicio-3"></a>
-
-### Seudocódigo
-
-### Diagrama de flujo
+-[ Ejercicio4](#ejercicio-4)
+-[ Ejercicio7](#ejercicio-7)
 
 
 
 ## Ejercicio 4 <a name = "ejercicio-4"></a>
+Escribe un programa en Java que verifique si un número es palíndromo. Se debe solicitar el número por teclado.
 
 ### Seudocódigo
 
@@ -45,10 +25,29 @@
 
 ### Diagrama de flujo
 
+<img src = "images/diagramaejercicio4.drawio.png">
 
+fin
 
-## Ejercicio 5 <a name = "ejercicio-5"></a>
+## Ejercicio 7<a name = "ejercicio-7"></a>
+
+7. Imprimir el nombre del día de la semana correspondiente a un número ingresado por el usuario utilizando una estructura switch.
+ El día a verificar se debe de pedir por teclado.
 
 ### Seudocódigo
 
+1. Inicio.
+2. Solicitar día de la semana del 1 al 7.
+        int n = lectura.nextInt();
+3. Condición con switch.
+4. Caso si n=1, imprimir "Lunes".
+5. Caso si n=2, imprimir "Martes".
+6. Caso si n=3, imprimir "Miércoles".
+7. Caso si n=4, imprimir "Jueves".
+8. Caso si n=5, imprimir "Viernes".
+9. Caso si n=6, imprimir "Sábado".
+10. Caso si n=7, imprimir "Domingo".
+11. Si n es diferente a estos valores
+
 ### Diagrama de flujo
+
