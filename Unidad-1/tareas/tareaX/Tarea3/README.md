@@ -1,19 +1,54 @@
-# Tarea2: Números perfectos.
+# Tarea 3
 
-## Seudocódigo
-    1. Inicio
-    2. Imprimir descripción del programa.
-    3. Bucle for, declaración del rango 1 a 1000 y variables
-    4.      mientras n < 1000, hasta 1000, sumar 1 
-    5.      n = 1
-    6.      sumadedivisores = 0
-    7. Bucle for para divisor y comprobar si es divisor
-    8.      mientras divisor < n, sumar 1
-    9.      Si n % divisor == 0
-    10.     sumadivisores = sumadivisores + divisor
-    11. Comprobar si sumadivisores == n
-    12. Imprimir
+-[ Ejercicio1](#ejercici-1)
 
-## Diagrama de flujo
 
-<img src = "images/Diagramanumerosperfectos.drawio.png">
+
+## Ejercicio 1 <a name = "ejercicio-1"></a>
+
+### Seudocódigo
+
+### Diagrama de flujo
+
+
+
+## Ejercicio 2 <a name = "ejercicio-2"></a>
+
+### Seudocódigo
+
+### Diagrama de flujo
+
+
+
+## Ejercicio 3 <a name = "ejercicio-3"></a>
+
+### Seudocódigo
+
+### Diagrama de flujo
+
+
+
+## Ejercicio 4 <a name = "ejercicio-4"></a>
+
+### Seudocódigo
+
+1. Inicio.
+2. Pedimos variable n y que lo lea.
+3. Creamos funcion espalindromo.
+4. Mientras n sea distinto de 0.
+5.  Almacenar último digito.
+6.  Construimos el número en reverso multiplicando por 10 y sumandole el dígito.
+7.  Dividimos n entre 10 para eliminar el último dígito.
+8. Si reverso == n.
+9. entonces imprimir "Es palíndromo".
+10. Sino, imprimir "No es palíndromo".
+
+### Diagrama de flujo
+
+
+
+## Ejercicio 5 <a name = "ejercicio-5"></a>
+
+### Seudocódigo
+
+### Diagrama de flujo

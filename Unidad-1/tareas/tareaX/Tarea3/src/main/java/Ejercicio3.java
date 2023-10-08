@@ -4,13 +4,13 @@
 
 
 
-public class Ejercicio1 {
+public class Ejercicio3 {
 
     /**
      * Descripcion del algoritmo
      * 
      */
-
+    public static void main(String[] args) {
 
 
     }
