@@ -74,4 +74,4 @@ Solicita el límite por teclado.
 
 ### Diagrama de flujo
 
-
+<img src = "images/Diagramaejercicio8.drawio (1).png">
