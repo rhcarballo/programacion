@@ -4,6 +4,7 @@
 
 -[ Ejercicio4](#ejercicio-4)
 -[ Ejercicio7](#ejercicio-7)
+-[ Ejercicio8](#ejercicio-8)
 
 
 
@@ -50,4 +51,27 @@ fin
 11. Si n es diferente a estos valores
 
 ### Diagrama de flujo
+
+<img src = "images/Diagramaejercicio7.drawio.png">
+
+## Ejercicio 8 <a name = "#ejercicio-8"></a>
+
+8. Encontrar y mostrar todos los números perfectos en un rango dado utilizando un bucle for.  
+Solicita el límite por teclado.
+
+### Seudocódigo
+
+1. Inicio.
+2. Solicitar al usuario el rango máximo para calcular los números perfectos.
+3. Crear variables sumadedivisores, rango.
+4. Para n=1, hasta que sea igual a rango, ir sumando 1.
+        for (int n = 1; n<= rango; n++)
+5. Calcular los divisores del número.
+6. Para divisor = 1, mientras sea menor que rango, ir sumando 1.
+        for(int divisor = 1; divisor <= n/2; divisor++)
+7. Ir sumando los divisores
+8. Si sumadedivisores == n, almacenar e imprimir. 
+
+### Diagrama de flujo
+
 
