@@ -2,10 +2,22 @@
 
 # Tarea 3
 
+-[ Ejercicio1](#ejercicio-1)
 -[ Ejercicio4](#ejercicio-4)
 -[ Ejercicio7](#ejercicio-7)
 -[ Ejercicio8](#ejercicio-8)
 
+
+## Ejercicio 1 <a name = "ejercicio-1"></a>
+
+
+### Seudocódigo
+1. Inicio.
+2. Empezar contador desde el 1 hasta el 10.
+        for (int n = 1; n <= 10, n++>)
+3. Hacer contador de filas.
+4. Hacer contador de números por fila.
+5. Imprimir cada fila. 
 
 
 ## Ejercicio 4 <a name = "ejercicio-4"></a>
