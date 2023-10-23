@@ -8,25 +8,19 @@ public class Ejercicio4 {
      * @param numeroB segundo numero para determinar si es mayor.
      * @return mayor de los dos numeros.
      */
-    public int maximoDeDosValores(int numeroA, int numeroB){
+    public int calcularMaximo(int numeroA, int numeroB){
 
-        int mayor = 0;
-        if (numeroA > numeroB){
-            mayor = numeroA;
-        } else {
-            mayor = numeroB;
-        }
-        return mayor;
-    }
-
-    public int maximoDeTresValores(int maximoDeDosValores, int numeroC){
-        int mayor = 0;
-        if (numeroC > maximoDeDosValores){
-            mayor = numeroC;
-        } else {
-            mayor = maximoDeDosValores;
-        }
         
-        return mayor;
+        if (numeroA > numeroB){
+            return numeroA;
+        } else {
+           return numeroB;
+        }
     }
+
+    public int calcularMaximo(int numeroA, int numeroB, int numeroC){
+       int maximoDeDos = calcularMaximo(numeroA, numeroB);
+      return calcularMaximo(maximoDeDos, numeroC);
+    }
+
 }

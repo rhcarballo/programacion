@@ -3,7 +3,6 @@ package ies.puerto;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import scala.math.Numeric;
 
 public class Ejercicio4Test {
 

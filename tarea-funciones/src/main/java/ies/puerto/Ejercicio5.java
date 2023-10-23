@@ -10,9 +10,9 @@ public class Ejercicio5 {
         
         for(int i = 2; i <= numero; i++){
             if (numero % i == 0){
-                primo = false;
+                return false;
             } else {
-                primo = true;
+               return true;
             }
 
         }
@@ -20,6 +20,6 @@ public class Ejercicio5 {
 
 
 
-        return primo;
+        return true;
     }
 }
