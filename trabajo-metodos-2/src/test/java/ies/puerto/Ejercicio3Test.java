@@ -7,7 +7,22 @@ public class Ejercicio3Test {
     Ejercicio3 ejercicio3 = new Ejercicio3();
 
     @Test
-    public int mostrarNumerosOkTest (){
+    public void mostrarNumeroOkTest(){
+        int numero1 = 33;
+        int numero2 = 47;
+        int numero3 = 90;
+        int numero4 = 7;
+        int numero5 = 26;
+
+        
+
+    }
+    
+    
+    
+    
+    @Test
+    public int sumarNumerosOkTest (){
         int numero1 = 33;
         int numero2 = 47;
         int numero3 = 90;
@@ -27,7 +42,7 @@ public class Ejercicio3Test {
         int numero4 = 7;
         int numero5 = 26;
         int resultadoOk = 90;
-        int mayor = ejercicio3.numeroMayorAMenor(numero1, numero2, numero3, numero4, numero5)
+        int mayor = ejercicio3.numeroMayorAMenor(numero1, numero2, numero3, numero4, numero5);
         Assertions.assertEquals(resultadoOk, mayor, "No es el resultado esperado.");
     }
 

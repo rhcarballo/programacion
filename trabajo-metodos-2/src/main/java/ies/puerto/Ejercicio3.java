@@ -1,5 +1,7 @@
 package ies.puerto;
 
+import java.util.Scanner;
+
 public class Ejercicio3 {
 
     /**
@@ -29,4 +31,23 @@ public class Ejercicio3 {
         }
         return mayor;
      } 
+
+     public void mostrarNumero (){
+        Scanner lectura = new Scanner(System.in);
+
+        int numero1 = lectura.nextInt();
+        int numero2 = lectura.nextInt();
+        int numero3 = lectura.nextInt();
+        int numero4 = lectura.nextInt();
+        int numero5 = lectura.nextInt();
+        
+        System.out.println(numero1);
+        System.out.println(numero2);
+        System.out.println(numero3);
+        System.out.println(numero4);
+        System.out.println(numero5);
+        
+
+        lectura.close();
+     }
 }
