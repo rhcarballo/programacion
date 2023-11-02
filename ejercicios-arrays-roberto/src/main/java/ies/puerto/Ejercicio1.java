@@ -2,12 +2,19 @@ package ies.puerto;
 
 /**
  * @author rhcarballo
+ * Escribe un programa que calcule la suma de todos los elementos en un array de enteros.
  */
 
-public int sumarElementos (){
-    int [] array = {1, 2, 3, 4, 5};
-    int suma = 0;
+public class Ejercicio1 {
 
+    public int sumarNumeros(int[] array) {
+        int suma = 0;
 
-   
+        for (int i = 0; i < array.length; i++) {
+            suma += array[i];
+        }
+        return suma;
+            
+    }    
+        
 }
