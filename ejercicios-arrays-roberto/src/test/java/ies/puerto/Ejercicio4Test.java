@@ -8,12 +8,13 @@ public class Ejercicio4Test{
     Ejercicio4 ejercicio4 = new Ejercicio4();
 
     @Test
-    public void mostrarParesOk2Test (){
+    public void mostrarParesOkTest (){
         int[] array = {1, 2, 3, 4, 5, 6};
-        int[] pares = ejercicio4.mostrarPares(array);
-        int[] paresOk = {2, 4, 6};
-
-        Assertions.assertEquals(paresOk, pares,"No es el resultado esperado");
+        int[] paresOk = {0, 2, 0, 4, 0,  6};
+        int[] pares = ejercicio4.obtenerPares(array);
+        
+    
+        Assertions.assertArrayEquals(paresOk, pares);
     }
 
 }
