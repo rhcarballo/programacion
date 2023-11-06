@@ -1,8 +1,10 @@
+package src.main.java.ies;
+
 public class Persona{
-    private String nombre;
-    private int edad;
-    private String email;
-    private int telefono;
+    public String nombre;
+    public int edad;
+    public String email;
+    public int telefono;
 
 
     /**
@@ -110,10 +112,10 @@ public class Persona{
     }
 
 
-
-
-
-
-
+    /**
+     * Manipulación de objetos de persona1 y persona2
+     */
+    Persona persona1 = new Persona("Juan", 55, "juandominguez@gmail.com", 8453028);
+    Persona persona2 = new Persona("Elena", 36, "elenagonzalez@gmail.com", 123456);
 
 }
