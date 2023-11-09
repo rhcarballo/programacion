@@ -5,6 +5,19 @@ public class Producto {
     private double precio;
     private int stock;
 
+    /**
+     * Constructor con todos los parametros.
+     * @param nombre del producto
+     * @param precio del producto
+     * @param stock del producto
+     */
+
+    public Producto(String nombre, double precio, int stock){
+        this.nombre=nombre;
+        this.precio=precio;
+        this.stock=stock;
+    }
+
     public String getNombre() {
         return this.nombre;
     }
@@ -32,19 +45,7 @@ public class Producto {
     public Producto(){
     }
 
-    public Producto(String nombre){
-        this.nombre=nombre;
-    }
 
-    public Producto(String nombre, double precio){
-        this.nombre=nombre;
-        this.precio=precio;
-    }
-
-    public Producto(String nombre, double precio, int stock){
-        this.nombre=nombre;
-        this.precio=precio;
-        this.stock=stock;
-    }
+    
 
 }

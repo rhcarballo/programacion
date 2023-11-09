@@ -18,7 +18,7 @@ public class Circulo {
 
     /**
      * Funcion que calcula el area del circulo
-     * @param radio
+     * @param
      * @return resultado
      */
     public double areaCirculo(){

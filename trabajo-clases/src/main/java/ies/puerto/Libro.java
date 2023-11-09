@@ -43,26 +43,6 @@ public class Libro {
     public Libro(){
     }
 
-    /**
-     * Constructor con parámetro autor
-     * @param autor del libro
-     */
-
-    public Libro(String autor){
-        this.autor = autor;
-    }
-
-
-    /**
-     * Constructor con parametro autor y titulo
-     * @param autor del libro
-     * @param titulo del libro
-     */
-
-    public Libro(String autor, String titulo){
-        this.autor = autor;
-        this.titulo = titulo;
-    }
 
     /**
      * Constructor con paramteros autor, titulo y añoPublicacion
@@ -77,26 +57,22 @@ public class Libro {
         this.añoPublicacion = añoPublicacion;
     }
 
-    /**
-     * Manipulacion de objetos
-     */
-    Libro libro1 = new Libro("J.K.Rowling", "Harry Potter y el cáliz de fuego", 2000);
-    Libro libro2 = new Libro("Gabriel Garcia Marquez", "Cien años de soledad", 1967);
 
     /**
      * Función para imprimir
      * @return datos de los libros a los que se le han aplicado objetos
      */
     public String imprimir() {
+        String resultado = "";
+        resultado = "Titilo:"+titulo+", autor:"+autor+", año:"+añoPublicacion+".";
 
-        return "Nombre;" + titulo + "Edad:" + autor + "Email:" + añoPublicacion;
+        return resultado;
+        
     }
 
     /**
      * Funcion que llama a "imprimir" para mostrar los datos de los libros modificados
      * @return
      */
-    public String mostrardatos(){
-        return libro1.imprimir() + libro2.imprimir();
-    }
+
 }

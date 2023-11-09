@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 public class CuentaBancariaTest {
 
-    CuentaBancaria cuentaBancaria = new CuentaBancaria();
     CuentaBancaria cuentaBancaria1 = new CuentaBancaria(17829, "Juan", 1700.50);
     CuentaBancaria cuentaBancaria2 = new CuentaBancaria(302720, "Aitor", 9000.0);
 
