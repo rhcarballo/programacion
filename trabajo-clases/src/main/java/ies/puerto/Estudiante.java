@@ -95,10 +95,10 @@ public class Estudiante {
         return "Nombre de estudiante: " + nombre + "Edad: " + edad + "Carrera: " + carrera + "Promedio notas: " + promedio;
     }
 
-    public boolean aprobadoSiNo (double promedio){
+    public boolean aprobadoSiNo (){
         boolean aprobado = true;
 
-        if (promedio <= 5){
+        if (promedio < 5){
             aprobado = false;
         }
 
@@ -107,6 +107,5 @@ public class Estudiante {
     }
 
 
-    Estudiante estudiante1 = new Estudiante("Antonio", 23, "Ingenieria informatica", 9.5);
-    Estudiante estudiante2 = new Estudiante("Laura", 20, "Ingenieria civil", 9);
+    
 }

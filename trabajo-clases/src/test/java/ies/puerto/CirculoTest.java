@@ -12,7 +12,7 @@ public class CirculoTest {
    @Test
    public void areaCirculo1OkTest(){
     double resultadoOK = 12.56;
-    double resultado = circulo2.areaCirculo();
+    double resultado = circulo1.areaCirculo();
     Assertions.assertEquals(resultadoOK, resultado, "No es el resultado esperado");
    }
 
@@ -21,6 +21,20 @@ public class CirculoTest {
     double resultadoOK = 452.16;
     double resultado = circulo2.areaCirculo();
     Assertions.assertEquals(resultadoOK, resultado, "No es el resultado esperado");
+   }
+
+   @Test
+   public void circunferenciaCirculo1OkTest(){
+      double circunferenciaOk = 12.56;
+      double circunferencia = circulo1.circunfrenciaCirculo();
+      Assertions.assertEquals(circunferenciaOk, circunferencia, "No es el resultado esperado");
+   }
+
+   @Test
+   public void circunferenciaCirculo2OkTest(){
+      double circunferenciaOk = 75.36;
+      double circunferencia = circulo2.circunfrenciaCirculo();
+      Assertions.assertEquals(circunferenciaOk, circunferencia, "No es el resultado esperado");
    }
 
 

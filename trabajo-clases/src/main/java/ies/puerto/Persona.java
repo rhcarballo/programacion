@@ -113,8 +113,7 @@ public class Persona {
     /**
      * Manipulación de objetos de persona1 y persona2
      */
-    Persona persona1 = new Persona("Juan", 55, "juandominguez@gmail.com", 8453028);
-    Persona persona2 = new Persona("Elena", 36, "elenagonzalez@gmail.com", 123456);
-    Persona persona3 = new Persona("Francisco", 19, "francisco@gmail.com");
+    
+    
 
 }

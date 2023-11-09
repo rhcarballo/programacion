@@ -81,8 +81,8 @@ public class CuentaBancaria {
      * @return saldo
      */
 
-    public double depositarDinero(double dineroADepositar, double saldo){
-
+    public double depositarDinero(double dineroADepositar){
+        
         saldo += dineroADepositar;
 
         return saldo;
@@ -95,7 +95,7 @@ public class CuentaBancaria {
      * @param saldo
      * @return saldo
      */
-    public double retirarDinero(double dineroARetirar, double saldo){
+    public double retirarDinero(double dineroARetirar){
 
         saldo -= dineroARetirar;
 
@@ -103,6 +103,4 @@ public class CuentaBancaria {
     }
 
 
-    CuentaBancaria banco1 = new CuentaBancaria(17829, "Juan", 1700.50);
-    CuentaBancaria banco2 = new CuentaBancaria(302720, "Aitor", 9000);
 }
