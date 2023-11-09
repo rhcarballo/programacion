@@ -47,37 +47,6 @@ public class Estudiante {
     }
 
     /**
-     * Constructor con parametro nombre
-     * @param nombre del estudiante
-     */
-    public Estudiante(String nombre){
-        this.nombre = nombre;
-    }
-
-    /**
-     * Constructor con parametro nombre y edad
-     * @param nombre del estudiante
-     * @param edad del estudiante
-     */
-    public Estudiante(String nombre, int edad){
-        this.nombre=nombre;
-        this.edad=edad;
-    }
-
-
-    /**
-     * Constructor con parametro nombre, edad y carrera
-     * @param nombre del estudiante
-     * @param edad del estudiante
-     * @param carrera del estudiante
-     */
-    public Estudiante(String nombre, int edad, String carrera){
-        this.nombre=nombre;
-        this.edad=edad;
-        this.carrera=carrera;
-    }
-
-    /**
      * Constructor con parametro nombre, edad, carrera y promedio
      * @param nombre del estudiante
      * @param edad del estudiante
@@ -91,8 +60,11 @@ public class Estudiante {
         this.promedio=promedio;
     }
 
-    public String mostrarInformacion(){
-        return "Nombre de estudiante: " + nombre + "Edad: " + edad + "Carrera: " + carrera + "Promedio notas: " + promedio;
+    public String imprimir(){
+        String resultado;
+        resultado = "Nombre: "+nombre+", edad "+edad+", carrera "+carrera+", promedio "+promedio;
+
+        return resultado;
     }
 
     public boolean aprobadoSiNo (){

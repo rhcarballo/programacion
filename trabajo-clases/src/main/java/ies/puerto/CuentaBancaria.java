@@ -40,32 +40,11 @@ public class CuentaBancaria {
     }
 
     /**
-     * Constructor con parametro numeroCuenta
-     * @param numeroCuenta
-     */
-
-    public CuentaBancaria(int numeroCuenta){
-        this.numeroCuenta=numeroCuenta;
-    }
-
-    /**
-     * Constructor con parametro numeroCuenta y nombreTitular
-     * @param numeroCuenta
-     * @param nombreTitular
-     */
-
-    public CuentaBancaria(int numeroCuenta, String nombreTitular){
-        this.numeroCuenta=numeroCuenta;
-        this.nombreTitular=nombreTitular;
-    }
-
-    /**
-     * Constructor con parametro numeroCuenta, nombreTitular y saldo
+     * Constructor de la clase con todos los parametros.
      * @param numeroCuenta
      * @param nombreTitular
      * @param saldo
      */
-
     public CuentaBancaria(int numeroCuenta, String nombreTitular, double saldo){
         this.numeroCuenta=numeroCuenta;
         this.nombreTitular=nombreTitular;
@@ -102,5 +81,11 @@ public class CuentaBancaria {
         return saldo;
     }
 
+    public String imprimir(){
+        String resultado;
+
+        resultado = "Numero de cuenta"+numeroCuenta+"Nombre del titular: "+nombreTitular+"Saldo: "+saldo;
+        return resultado;
+    }
 
 }

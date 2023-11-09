@@ -60,8 +60,11 @@ public class Circulo {
         this.radio = radio;
     }
 
-    public String mostrarDatos(){
-        return "Radio: " + radio;
+    public String imprimir(){
+        String resultado;
+
+        resultado = "Radio del círculo: "+radio+".";
+        return resultado;
     }
 
 

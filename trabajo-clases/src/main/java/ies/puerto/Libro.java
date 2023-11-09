@@ -32,10 +32,6 @@ public class Libro {
         this.añoPublicacion = añoPublicacion;
     }
 
-
-
-
-
     /**
      * Constructor por defecto de la clase
      */

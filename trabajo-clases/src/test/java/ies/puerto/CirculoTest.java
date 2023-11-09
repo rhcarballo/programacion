@@ -1,42 +1,54 @@
 package ies.puerto;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
 public class CirculoTest {
 
-   Circulo circulo1 = new Circulo(2);
-   Circulo circulo2 = new Circulo(12);
+   double radio = 12.0;
+   Circulo circulo;
+   
+   @BeforeEach
 
-   @Test
-   public void areaCirculo1OkTest(){
-    double resultadoOK = 12.56;
-    double resultado = circulo1.areaCirculo();
-    Assertions.assertEquals(resultadoOK, resultado, "No es el resultado esperado");
+   public void beforeEach(){
+        circulo = new Circulo(radio);
    }
 
    @Test
-   public void areaCirculo2OkTest(){
+   public void constructorTestOk(){
+        Circulo circulo = new Circulo(radio);
+        Assertions.assertEquals(radio, circulo.getRadio(), "No se ha obtenido el resultado esperado");
+   }
+
+   @Test
+   public void setRadioTestOk(){
+      double miRadio = 16.0;
+      circulo.setRadio(miRadio);
+      Assertions.assertEquals(miRadio, circulo.getRadio(), "No es el resultado esperado.");
+   }
+
+   @Test
+   public void areaCirculoOkTest(){
     double resultadoOK = 452.16;
-    double resultado = circulo2.areaCirculo();
+    double resultado = circulo.areaCirculo();
     Assertions.assertEquals(resultadoOK, resultado, "No es el resultado esperado");
    }
 
-   @Test
-   public void circunferenciaCirculo1OkTest(){
-      double circunferenciaOk = 12.56;
-      double circunferencia = circulo1.circunfrenciaCirculo();
-      Assertions.assertEquals(circunferenciaOk, circunferencia, "No es el resultado esperado");
-   }
 
    @Test
-   public void circunferenciaCirculo2OkTest(){
+   public void circunferenciaCirculoOkTest(){
       double circunferenciaOk = 75.36;
-      double circunferencia = circulo2.circunfrenciaCirculo();
+      double circunferencia = circulo.circunfrenciaCirculo();
       Assertions.assertEquals(circunferenciaOk, circunferencia, "No es el resultado esperado");
    }
 
+   @Test
+    public void imprimirTestOk(){
+      String resultadoOk= "Radio del círculo: "+radio+".";
+      Assertions.assertEquals(resultadoOk, circulo.imprimir(), "No se ha obtenido el resultado esperado");
+    }
 
 
 }
