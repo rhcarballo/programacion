@@ -27,10 +27,10 @@ public class  Ejercicio3{
         resultado = "Matricula";
     }
     return resultado;
-   }
- 
+    }
 
-   /**
+
+    /**
     * Metodo para clasificar notas utilizando Switch
     * @param nota
     * @return resultado de la nota
@@ -87,14 +87,52 @@ public class  Ejercicio3{
                 break;
             
             case 6:
-                if (nota > 9.99){
+                if (nota == 10){
                     resultado = "Matricula";
                 }
+                break;
 
         }
 
     return resultado;
     }
 
+public String calcularNotaSwitch(float nota){
+    String calificacion = "";
+    int enteroNota = (int) nota;
+
+    switch (enteroNota) {
+        case 0:   
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            calificacion = "Suspenso";
+            break;
+        case 5:
+            calificacion = "Aprobado";
+            break;
+        case 6:
+            calificacion = "bien";
+            break;
+        case 7:
+            calificacion = "Notable";
+            break;
+        case 8:
+            calificacion = "Notable";
+            break;
+        case 9:
+            calificacion = "Sobresaliente";
+            break;
+        case 10:
+            calificacion = "Matricula";
+            break;
+
+        default:
+            calificacion="Algo esta mal.";
+    }
+
+    return calificacion;
+}
 
 }

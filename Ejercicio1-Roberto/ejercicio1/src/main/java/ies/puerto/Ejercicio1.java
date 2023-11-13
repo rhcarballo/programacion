@@ -24,4 +24,24 @@ public class  Ejercicio1{
         return -1;
     }
 
+
+    public int busquedaBinariaBien(int[] array, int valor){
+        int posicion = 0;
+        int posInicio = 0;
+        int posFinal = array.length - 1;
+
+        while (posInicio <= posFinal){
+            posicion = (posInicio + posFinal)/2;
+            if(array[posicion] == valor){
+                return posicion;
+            }else if (array[posicion] < valor)  {
+                posInicio = posicion + 1;
+            }else {
+                posFinal = posicion - 1;
+            }
+        }
+
+        return -1;
+    }
+
 }

@@ -52,6 +52,22 @@ public class  Ejercicio4{
         return saldo;
     }
 
+    public void depositar(double deposito) {
+        if (deposito > 0) {
+            this.saldo += deposito;
+        }
+    }
+
+    public boolean retirar(double saldo) {
+        if ((this.saldo - saldo) > 0) {
+            this.saldo -= saldo;
+            return true;
+        }
+        return false;
+    }
+
+
+
     /**
      * Funcion para retirar una cantidad de dinero de la cuenta.
      * @param dineroARetirar
@@ -65,9 +81,12 @@ public class  Ejercicio4{
     }
 
     public String imprimir(){
-        String resultado = "Titular de la cuenta: "+titular+", saldo de la cuenta: "+saldo;
-        
-        return resultado;
+        return "Titular de la cuenta: "+titular+", saldo de la cuenta: "+saldo;
     }
- 
+
+    @Override
+    public String toString(){
+        return "Titular de la cuenta: "+titular+", saldo de la cuenta: "+saldo;
+    }
+
 }
