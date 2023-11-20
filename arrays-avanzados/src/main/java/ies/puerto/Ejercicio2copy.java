@@ -2,11 +2,12 @@ package ies.puerto;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio2copy {
 
     public static void main (String[] args){
 
     }
+
 
     public void pedirDatos(){
         int[] array = new int[10];
@@ -24,19 +25,13 @@ public class Ejercicio2 {
                 elementosMostrar++;
             }
         }while (elementosMostrar < array.length && !salir);
-        mostrarArray(array, elementosMostrar);
-    }
+        mostrarInfoArray(array, temporal);
+    } 
 
-
-    /**
-     * Documentamos codigo
-     * @param array
-     */
-    public void  mostrarArray(int[] array, int total) {
-        for (int i = 0; i < total; i++){
+    public void mostrarInfoArray(int[] array, int total){
+        for(int i = 0; i < total; i++){
+            
             System.out.println(array[i]);
         }
     }
-
-
 }
